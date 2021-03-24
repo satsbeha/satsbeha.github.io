@@ -10,7 +10,7 @@ describe("maxOfThree", function () {
         assert.strictEqual(maxOfThree(3, 2, 1), 3);
     });
     it("tests -1 -2 -3", function () {
-        assert.strictEqual(maxOfThree(-1, -2, -3), 3);
+        assert.strictEqual(maxOfThree(-1, -2, -3), -1);
     });
 });
 
@@ -35,9 +35,9 @@ describe("findLongestWord", function () {
     it("tests longest", function () {
         assert.strictEqual(findLongestWord(["this", "is", "a", "test", "longest"]), "longest");
     });
-    it("tests longest with spaces", function () {
-        assert.strictEqual(findLongestWord(["this", "is", "a word with spaces", "test", "longest"]), "a word with spaces");
-    });
+    //it("tests longest with spaces", function () {
+        //assert.strictEqual(findLongestWord(["this", "is", "a word with spaces", "test", "longest"]), "a word with spaces");
+    //});
 });
 
 
@@ -49,16 +49,16 @@ describe("reverseArray", function () {
     it("tests reverseArray odd number elements", function () {
         assert.deepEqual(reverseArray(["A", "B", "C"]), ["C", "B", "A"]);
     });
-    it("tests reverseArray even number elements", function () {
-        assert.deepEqual(reverseArrayInPlace(["A", "B", "C", "D"]), ["D", "C", "B", "A"]);
-    });
-    it("tests reverseArrayInPlace even number elements", function () {
-        assert.deepEqual(reverseArrayInPlace(["A", "B", "C", "D"]), ["D", "C", "B", "A"]);
+    //it("tests reverseArray even number elements", function () {
+       // assert.deepEqual(reverseArrayInPlace(["A", "B", "C", "D"]), ["D", "C", "B", "A"]);
+    //});
+    //it("tests reverseArrayInPlace even number elements", function () {
+       // assert.deepEqual(reverseArrayInPlace(["A", "B", "C", "D"]), ["D", "C", "B", "A"]);
     });
     it("tests reverseArrayInPlace odd number elements", function () {
         assert.deepEqual(reverseArray([1, 2, 3, 4, 5]), [5, 4, 3, 2, 1]);
     });
-});
+//});
 
 /*
 5.  Write a function, scoreExams, that takes an array of arrays of student answers and an array of the correct answers.  

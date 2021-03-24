@@ -72,7 +72,7 @@ function findLongestWord(array) {
     }
     return longest;
 }
-//let a = ["so","sol","solo","solomon"]
+//let a = ["so","sol","solo","solomon is "]
 
 /**
  * 
