@@ -147,3 +147,61 @@ function getSecondsToday() {
   }
   
   console.log( getSecondsToday() );
+
+
+
+  //map :
+  const numArray = [5,0, 7, 77, -20, 300, 51, 2]
+const peopleArray = [{name: "Sam", age: 15}, {name: "William", age: 6}, {name: "Lucy", age: 13}, {name:
+"Barney", age: 80}]
+
+/*
+function toDouble(Array) {
+  return Array.map(function(val) {
+    return   val * 2;
+  })
+}
+console.log(toDouble(numArray));
+
+function Double(obj) {
+  return obj.map(function(val) {
+    return   val.age * 2;
+  })
+}
+console.log(Double(peopleArray));
+*/
+/*
+//filter:
+ function fil(arr){
+   return arr.filter(function(val){
+     return val%2===0
+   })
+ }
+ console.log(fil(numArray));
+
+ function fil1(obj){
+   return obj.filter(function(val){
+     return val.age>10;
+   })
+ }
+ console.log(fil1(peopleArray));
+*/
+ //- find even, include even
+ /*
+  function fi(arr){
+    return arr.find(function(val){
+      return val%2==0;
+    })
+  }
+  console.log(fi(numArray));
+  */
+ /*
+
+  let n=numArray.includes(function(val)
+    {return val%2===0
+    });
+  console.log(n)
+  */
+ 
+
+  
