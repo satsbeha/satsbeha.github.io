@@ -3,6 +3,28 @@
 */
 //module.exports = { Clock,Animal}; //add all of your function names here that you need for the node mocha tests
 
+/*
+Also add a line of code that will stop the clock after 4 ticks
+➢ What is the inner function of the constructor function?
+
+     //this.stop and this.start
+➢ What is the local variable of the constructor function?
+
+    //render and timer are free variables
+➢ What is the clock “interface” returned by the constructor function?
+     //start and stop
+➢ What are the closures?
+//2 closures
+➢ Where is object destructuring used?
+
+➢ What are the private variables and functions?
+//timer, render
+➢ What are the public methods?
+//
+➢ How does this example illustrate that a JavaScript class is really a function and not an object?
+
+
+*/
 //Section: Basic class syntax
 //Rewrite to class (see slide 16 for hints and questions to answer)
 //The Clock class (see the sandbox) is written in functional style. Rewrite it in the “class” syntax.
