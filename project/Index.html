@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.js"></script>
+<script src="./index.js"></script>
+
+  <style>
+    .btn-light{
+      background-color: gainsboro;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Project</h2>
+  <div class="row">
+    <div class="form-group col-md-6">
+       <label for="inputdefault">Enter UserID</label> 
+      <input class="form-control" id="txtUserId" placeholder="Enter User ID" type="text"> <button type="button" class="btn btn-info" onclick="loaduser()">Search</button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="username"></td>
+            <td id="email"></td>
+            <td id="address"></td>
+          </tr>
+          </tbody>
+          </table>
+
+    </div>
+    
+    
+        <div class="col-md-6">
+          <img src="" id="mapimg" width="300px">
+
+        </div>
+</div>
+        <div class="row">
+        <div class="col-md-6">
+          Posts
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Title</th>
+				  <th scope="col">Body</th>
+                  <th scope="col">View</th>
+                  
+                </tr>
+              </thead>
+              <tbody id="postitems">
+                
+                </tbody>
+                </table>
+          </div>
+          <div class="col-md-6">
+            Comments
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Body</th>
+                  </tr>
+                </thead>
+                <tbody id="commentItems">
+                  
+                  </tbody>
+                  </table>
+            </div>
+          </div>
+    </div>
+  
+</div>
+</body>
+</html>
